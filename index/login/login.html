@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Register</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="login">
+            <div class="close"><i class="ri-close-circle-fill"></i></div>
+            <h3>Войти</h3>
+
+            <div class="inputs">
+                <form>
+                    <div class="email_blog">
+                        <input type="email" name="email" placeholder="Email..">
+                    </div>
+                    <div class="errro" id="email"></div>
+
+                    <div class="email_blog">
+                        <i class="ri-eye-off-line eye__false"></i>
+                        <i class="ri-eye-line eye__true"></i>
+                        <input type="password" name="password" placeholder="Password...">
+                    </div>
+                    <div class="errro" id="password"></div>
+
+                    <div class="errro" id="massage"></div>
+                </form>
+
+                <button class="btn__log">Войти</button>
+
+                <div class="question">
+                    <p>У вас нет акаунт? </p>
+                    <a href="../register/register.html">Зарегатся</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

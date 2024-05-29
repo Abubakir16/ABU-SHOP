@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.admin img {
+  width: 20%;
+}
+.deleteAcc {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.editAcccc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #00000087;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.editAcccc.active {
+  display: flex;
+}
+.innerEdirAcc {
+  width: 500px;
+  padding: 20px;
+  background: #fff;
+}
+.email_blog {
+  border: 1px solid var(--first_color);
+  width: 380px;
+  margin-top: 10px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+.email_blog input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 80%;
+  color: var(--black);
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs button {
+  padding: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: transparent;
+  border: 1px solid var(--first_color);
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.inputs button:hover {
+  background: var(--first_color);
+  color: #fff;
+}
+.email_blog i {
+  cursor: pointer;
+  color: var(--black);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+.name {
+  border: 1px solid var(--first_color);
+  margin-top: 10px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+.name input {
+  border: none;
+  outline: none;
+}
+.user_logo img {
+  border: 1px solid #000;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.user_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img_ {
+  width: 5%;
+}
+
+.errro {
+  margin-top: 5px;
+  background: red;
+  color: #fff;
+}
+.eye__true {
+  display: none;
+}
+
+.editPass {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #00000087;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.editPass.active {
+  display: flex;
+}
+.innerEdirPass {
+  width: 500px;
+  background: #fff;
+  padding: 10px;
+}
+
+.eye__true2 {
+  display: none;
+}
+.eye__true3 {
+  display: none;
+}
+
+.avatrat_img {
+  border-radius: 50%;
+  object-fit: cover;
+}

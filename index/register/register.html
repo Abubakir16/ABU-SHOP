@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="login">
+            <div class="close"><i class="ri-close-circle-fill"></i></div>
+            <h3>Регистрация</h3>
+
+
+
+            <div class="inputs">
+                <form>
+                    <div class="user_logo">
+                        <img src="./user_logo.svg" id="placeAva">
+                        <input class="avatar" name="avatar" id="avatar" type="file" onclick="">
+                    </div>
+                    <div class="parent">
+
+                        <div>
+
+                            <div class="name">
+                                <input type="text" name="first_name" placeholder="Имя">
+                            </div>
+
+                            <div class="errro" id="first_name"></div>
+                        </div>
+
+                        <div>
+                            <div class="name">
+                                <input type="text" name="last_name" placeholder="Фамилия">
+                            </div>
+
+                            <div class="errro" id="last_name"></div>
+                        </div>
+                    </div>
+                    <div class="email_blog">
+                        <input type="tel" name="phone" placeholder="Телефон номер">
+                    </div>
+                    <div class="errro" id="phone"></div>
+
+
+                    <div class="email_blog">
+                        <input type="email" name="email" placeholder="Email..">
+                    </div>
+                    <div class="errro" id="email"></div>
+                    <div class="email_blog">
+                        <i class="ri-eye-off-line eye__false"></i>
+                        <i class="ri-eye-line eye__true"></i>
+                        <input type="password" name="password" placeholder="Password...">
+                    </div>
+                    <div class="errro" id="password"></div>
+
+                </form>
+                <button class="btn_reg">Регистрация</button>
+
+                <div class="question">
+                    <p>У вас ест акаунт? </p>
+                    <a href="../login/login.html">Войти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>

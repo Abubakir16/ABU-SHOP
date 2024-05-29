@@ -1,0 +1,97 @@
+.eye__true {
+  display: none;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--black);
+}
+.login {
+  background: var(--white);
+  width: 500px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  color: var(--black);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 30px var(--first_color);
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.email_blog {
+  border: 1px solid var(--first_color);
+  width: 300px;
+  margin-top: 10px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+.email_blog input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 80%;
+  color: var(--black);
+  font-size: 16px;
+}
+.email_blog input::placeholder {
+  color: var(--black);
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs button {
+  padding: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: transparent;
+  border: 1px solid var(--first_color);
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.inputs button:hover {
+  background: var(--first_color);
+  color: #fff;
+}
+.email_blog i {
+  cursor: pointer;
+  color: var(--black);
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.img_ {
+  width: 20px;
+}
+.errro {
+  background: red;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.eye__true2 {
+  display: none;
+}
